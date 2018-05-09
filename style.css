@@ -1,0 +1,42 @@
+header {
+    margin-bottom: 5%;
+}
+
+.mapbg {
+    background-image: url("resources/img/worldmap.png");
+    background-position: center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.introduction{
+    max-width: 100%;
+    width: 80%;
+}
+
+.dest-card {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.dest-card img {
+    margin-bottom: 5%;
+}
+
+.other-shit {
+    text-align: center;
+}
+
+.other-shit h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+.other-shit .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
